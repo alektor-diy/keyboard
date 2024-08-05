@@ -24,7 +24,7 @@
 - ダイオード *81個（[遊舎工房 - リード](https://shop.yushakobo.jp/products/a0800di-01-100), [遊舎工房 - SMD](https://shop.yushakobo.jp/products/a0800di-02-100)）
   - リードタイプ、SMDタイプどちらでも大丈夫です
 - タクタイルスイッチ *1個（[遊舎工房](https://shop.yushakobo.jp/products/a0800ts-01-1)）
-- MXスイッチ スタビライザー *2個（[遊舎工房](https://shop.yushakobo.jp/products/a0500st?variant=37665699430561)）
+- MXスイッチ スタビライザー 2u *2個（[遊舎工房](https://shop.yushakobo.jp/products/a0500st?variant=37665699430561)）
 - M3ネジ（長さ3mm） *30個（[遊舎工房](https://shop.yushakobo.jp/products/a0800s3?variant=37665433485473)）
 - お好きなCherry MX互換キースイッチ *81個
 - お好きなキーキャップ *1式（[Amazon](https://amzn.asia/d/8lLrkIZ)）
