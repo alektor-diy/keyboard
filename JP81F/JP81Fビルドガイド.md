@@ -1,6 +1,6 @@
 ![jp81f](https://i.imgur.com/2nig7JA.jpeg)
 
-# 日本語配列キーボード JP81F ビルドガイド
+# 日本語配列キーボード 「JP81F」 ビルドガイド
   
 ## 内容物
 不足があれば[X（旧Twitter）](https://x.com/alektor_diy)でご連絡ください。
