@@ -25,6 +25,8 @@
 - [タクタイルスイッチ](https://shop.yushakobo.jp/products/a0800ts-01-1) *1個
 - [MXスイッチ スタビライザー 2u](https://shop.yushakobo.jp/products/a0500st?variant=37665699430561) *2個
 - [M3ネジ（長さ3mm）](https://shop.yushakobo.jp/products/a0800s3?variant=37665433485473) *30個
+- USB Micro-B ケーブル
+  - ProMicroのUSB端子はもげることがあるため、[マグネット式のケーブル](https://amzn.asia/d/bDGuyXt)がオススメです
 - お好きなCherry MX互換キースイッチ（5ピンor3ピン） *81個
 - お好きなキーキャップ *1式
   - JP81Fは[Majestouch用キーキャップ](https://amzn.asia/d/8lLrkIZ)を使うことを想定して設計しています
@@ -167,7 +169,7 @@ JP81Fはサンドイッチ構造を採用しているので、最終的に上か
 6. 最後にボトムプレートのスペーサーの位置に合わせてカバープレートをM3ネジでネジ止めします。
 <br>
 
-8. あとはお好みのキーキャップを取り付ければ完成です。
+8. あとはお好みのキーキャップとゴム足を取り付ければ完成です。
    ![](https://i.imgur.com/DzeQB7s.png)
 <br>
 
