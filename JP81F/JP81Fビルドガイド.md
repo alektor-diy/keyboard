@@ -1,4 +1,4 @@
-# JP81Fビルドガイド
+![image](https://github.com/user-attachments/assets/68e869ab-b527-4fde-8e92-b4d36bd5e2b4)![image](https://github.com/user-attachments/assets/831e6b47-5733-48c7-a89d-1bc08eb4e5f8)# JP81Fビルドガイド
 ![jp81f](https://i.imgur.com/2nig7JA.jpeg)
 
 # **現在制作中です**
@@ -19,18 +19,19 @@
 ![プレート](https://i.imgur.com/MzVx6oT.jpg)
 
 ## 別途用意が必要なもの
-- Pro Micro Micro-B版 *1個（[遊舎工房](https://shop.yushakobo.jp/products/pro-micro)）
-- コンスルー（12ピン 高さ2.5mm） *2本（[遊舎工房](https://shop.yushakobo.jp/products/31?variant=37665714405537)）
-  - 遊舎工房で購入する場合はセット品もあります（[Pro Micro Micro-B版 コンスルーセット](https://shop.yushakobo.jp/products/21)）
-- キースイッチソケット *81個 （[遊舎工房](https://shop.yushakobo.jp/products/a01ps?_pos=2&_sid=fa442d940&_ss=r&variant=37665172521121)）
-- ダイオード *81個（[遊舎工房 - リード](https://shop.yushakobo.jp/products/a0800di-01-100), [遊舎工房 - SMD](https://shop.yushakobo.jp/products/a0800di-02-100)）
-  - リードタイプ、SMDタイプどちらでも大丈夫です
-- タクタイルスイッチ *1個（[遊舎工房](https://shop.yushakobo.jp/products/a0800ts-01-1)）
-- MXスイッチ スタビライザー 2u *2個（[遊舎工房](https://shop.yushakobo.jp/products/a0500st?variant=37665699430561)）
-- M3ネジ（長さ3mm） *30個（[遊舎工房](https://shop.yushakobo.jp/products/a0800s3?variant=37665433485473)）
+※リンク先は参考です、別途他の方法で用意いただいても問題ございませんが互換性についてはご自身の責任で確認をお願いいたします。
+- [Pro Micro Micro-B版](https://shop.yushakobo.jp/products/pro-micro) *1個
+- [コンスルー（12ピン 高さ2.5mm）](https://shop.yushakobo.jp/products/31?variant=37665714405537) *2本
+  - 遊舎工房で購入する場合は[セット品](https://shop.yushakobo.jp/products/21)もあります
+- [MX用キースイッチソケット](https://shop.yushakobo.jp/products/a01ps?_pos=2&_sid=fa442d940&_ss=r&variant=37665172521121) *81個 
+- ダイオード *81個
+  - [リードタイプ](https://shop.yushakobo.jp/products/a0800di-01-100)、[SMDタイプ](https://shop.yushakobo.jp/products/a0800di-02-100)どちらでも大丈夫です
+- [タクタイルスイッチ](https://shop.yushakobo.jp/products/a0800ts-01-1) *1個
+- [MXスイッチ スタビライザー 2u](https://shop.yushakobo.jp/products/a0500st?variant=37665699430561) *2個
+- [M3ネジ（長さ3mm）](https://shop.yushakobo.jp/products/a0800s3?variant=37665433485473) *30個
 - お好きなCherry MX互換キースイッチ *81個
-- お好きなキーキャップ *1式（[Amazon](https://amzn.asia/d/8lLrkIZ)）
-  - 本品はMajestouch用キーキャップを使うことを想定して設計しています
+- お好きなキーキャップ *1式
+  - JP81Fは[Majestouch用キーキャップ](https://amzn.asia/d/8lLrkIZ)を使うことを想定して設計しています
 - ゴム足 *4個
   - 100均やホームセンターなどで売っているもので大丈夫です、お好みの高さのものを取り付けてください
  
@@ -53,44 +54,80 @@ PCB基板の側面を油性ペンで黒く塗りつぶします。
 3. メインプレート表側に飛び出た足をニッパーなどでカットする
 4. メインプレート表側からハンダ付けする
 
-_※メインプレート表側＝キースイッチを差す側、メインプレート裏側＝キースイッチソケットをハンダ付けする側_
+> ※メインプレート表側＝キースイッチを差す側、メインプレート裏側＝キースイッチソケットをハンダ付けする側
 
 
 ### キースイッチソケットのハンダ付け
-メインプレートへキースイッチソケットをハンダ付けします。
-表面実装部品のため、以下の流れでハンダ付けをしてください。
+メインプレート裏面へキースイッチソケットをハンダ付けします。  
+表面実装部品のため、以下の流れでハンダ付けをしてください。  
 1. 取り付け部の片側にのみ予備ハンダする
 2. キースイッチソケットを向きに気を付けて差し込みながら予備ハンダした部分にハンダごてを当て、予備ハンダを溶かしながら固定する
 3. 予備ハンダしていない側をハンダ付けする
 4. 予備ハンダした側にハンダを足してしっかり固定する
 
-_※初めての方は「表面実装 はんだ付け」などで検索し、動画などで手順を確認することをオススメします_
+> ※初めての方は「表面実装 はんだ付け」などで検索し、動画などで手順を確認することをオススメします
+
 
 ### ProMicroとコンスルーのハンダ付け、基板への取り付け
 > **◆注意◆**  
-> 本品は設計上の不備でProMicroのコンスルーとESCキーのキーソケットが若干干渉します。  
+> JP81Fは設計上の不備でProMicroのコンスルーとESCキーのキーソケットが若干干渉します。  
 > 力を加えればはめ込むことができるギリギリのラインになっているので、申し訳ありませんがうまいこと取り付けてください。
 
 構造上の不備のため、先にメインプレートへコンスルーを取り付けてからProMicroを取り付ける必要があります。
 1. メインプレート裏面へコンスルーを取り付けます。[コンスルーは上下左右の向きがある](https://yushakobo.zendesk.com/hc/ja/articles/360044233974-%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC-%E3%82%B9%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%94%E3%83%B3%E3%83%98%E3%83%83%E3%83%80-%E3%81%AE%E5%8F%96%E3%82%8A%E4%BB%98%E3%81%91%E6%96%B9%E3%82%92%E6%95%99%E3%81%88%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84)のでご注意ください。
     * 片側のコンスルーがESCキーのキースイッチソケットと干渉する可能性が高いです。その場合はコンスルーを破損しない程度に斜めに力を加えるとギリギリ差し込むことができます。
-2. コンスルーへProMicroを差し込みます。ProMicroのチップ実装面が見えるように差し込んでください。
-3. 
-
+2. コンスルーへProMicroを差し込みます。ProMicroのチップ実装面が見えるように差し込んでください。  
+正しい向きで取り付けできていれば基板の印字とProMicroの印字が同じになります。
+![](https://i.imgur.com/A1HyNjt.png)
+3. ProMicroのピン24か所をハンダ付けします。
 
 
 ### リセットスイッチのハンダ付け
-
+リセットスイッチをProMicroと同じ面に取り付けます。（RESETスイッチ用の印刷が基板の表裏逆になってしまっているので注意してください。）
+1. リセットスイッチをProMicroと同じ面から差し込む
+2. メインプレート裏側からマスキングテープなどでリセットスイッチを固定する
+3. メインプレート表側からハンダ付けする
+  
+  
 ### ProMicroへのファームウェアの書き込み
+REMAPでファームウェアの書き込みが可能です。
+1. ProMicroをPCと接続します。
+2. REMAP上の[JP81Fのファームウェアページ](https://remap-keys.app/catalog/UvQIkYJF6VngLfmcaxkt/firmware)にアクセスします。
+3. 「FLASH」をクリックします。
+![FLASH](https://i.imgur.com/5RqwaUh.png)
+4. 「caterina」が選択されていることを確認し「FLASH」をクリックします。
+![](https://i.imgur.com/UzFoZeJ.png)
+5. シリアルポートへの接続要求画面が表示されたらキーボードに取り付けた「RESETスイッチ」を押します。
+6. 表示に変化があったポートを選択し「接続」をクリックします。
+![](https://i.imgur.com/shr5t22.png)
+7. 進捗が100%になり「Writing the firmware finished successfully.」が表示されたら「CLOSE」をクリックして完了です。
+![](https://i.imgur.com/v9G2bXa.png)
 
 ### 動作テスト
+組み立てる前に動作テストを行います。
+1. [REMAPの設定ページ](https://remap-keys.app/configure)へアクセスし「+KEYBOARD」をクリックします。
+![](https://i.imgur.com/1D3n1O5.png)
+2. 「jp81f」を選択し「接続」をクリックします。
+![](https://i.imgur.com/ZrLrPnl.png)
+4. キーマップ設定画面が表示されたら「…」→「Test Matorix Mode」をクリックします。
+![](https://i.imgur.com/PfVQJVJ.png)
+5. ピンセット等で短絡させるか、実際にキースイッチを接続して、正しく反応するかテストします。
+![](https://i.imgur.com/uBxzkET.png)
+> 反応しないキーがある場合はパーツの取り付け忘れやハンダ付けのミスを確認してみてください。
+> 特定のキーのみであれば取り付け不備の場合が多いです。
+> まとまったキーが反応しない場合はProMicro側のピンのハンダ付けに不備がある場合が多いです。
+
 
 ### 組み立て
-
+無事動作テストが完了したら最後に組み立てます。
+JP81Fはサンドイッチ構造を採用しているので、最終的に上から「トッププレート」「メインプレート」「ボトムプレート」「カバープレート」の順で重なった構造になります。
+ただし設計が甘くネジ止めの順番に指定がありますのでご注意ください。
+1. 
 
 ## 完成したら
 完成した写真をX（旧Twitter）に投稿していただけると作者が喜びます。  
 その際は是非ハッシュタグ **#JP81F** をつけていただけると嬉しいです。
+大喜びでいいね&リポストさせていただきます。
 
 > この記事はJP81Fを使用して作成しました。
 
