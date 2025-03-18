@@ -1,0 +1,4 @@
+API version: 18
+Config version: 3
+Build from: bmp-vial-1.3.6-0-ga6492d52dd
+Build Target: ble_micro_pro_vial
