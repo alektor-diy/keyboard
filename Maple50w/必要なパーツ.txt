@@ -1,0 +1,11 @@
+Choc v2 ソケット *50
+Choc v2 キースイッチ *50
+ロープロキーキャップ *1式
+
+単4電池ボックス *2(https://akizukidenshi.com/catalog/g/g102670/)
+3.3v昇圧回路 *1(https://akizukidenshi.com/catalog/g/g113066/)
+スライドスイッチ *1(https://akizukidenshi.com/catalog/g/g108790/ または https://akizukidenshi.com/catalog/g/g115707/)
+ショットキーバリアダイオード *1(https://akizukidenshi.com/catalog/g/g113240/)
+0.96インチ 128×64ドット有機ELディスプレイ(OLED) 白色 *1(https://akizukidenshi.com/catalog/g/g112031/)
+
+Xiao BLE Plus *1
